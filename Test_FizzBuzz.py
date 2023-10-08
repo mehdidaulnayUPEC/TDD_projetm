@@ -8,7 +8,7 @@ class Test_FizzBuzz(unittest.TestCase):
 
 
     def test_affiche(self):
-        self.assertEqual(self.instance.affiche(15), "12Fizz4BuzzFizz78FizzBuzz11Fizz1314FrisBee")
+        self.assertEqual(self.instance.affiche(5,10), "BuzzFizz78FizzBuzz")
         
 
 
